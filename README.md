@@ -12,8 +12,7 @@ Dart Web的应用示例：与AntV可视化进行集成
 
 找一种你喜欢的AntV可视化组件，然后用Dart来修改其显示数据。
 
-$ brew tap dart-lang/dart && brew install dart
-$ dart pub get
+$ brew tap dart-lang/dart && brew install dart && dart pub get
 
 $ dart create -t web-simple name
 
