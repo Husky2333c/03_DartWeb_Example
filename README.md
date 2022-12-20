@@ -15,6 +15,8 @@ Dart Web的应用示例：与AntV可视化进行集成
 $ brew tap dart-lang/dart && brew install dart
 $ dart pub get
 
+$ dart create -t web-simple name
+
 dart pub add build_runner build_web_compilers --dev
 dart pub global activate webdev
 export PATH="$PATH":"$HOME/.pub-cache/bin"
